@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Inspection Platform — professional technical inspections, checklists and compliance reports. Website under construction." />
+    <title>Inspection Platform — Under Construction</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <div class="bg">
+      <div class="noise"></div>
+      <div class="grid"></div>
+    </div>
+
+    <main class="wrap">
+      <header class="top">
+        <div class="brand">
+          <div class="logo" aria-hidden="true">IP</div>
+          <div class="brand-text">
+            <div class="brand-name">Inspection Platform</div>
+            <div class="brand-tag">Technical Inspections • Checklists • Reports</div>
+          </div>
+        </div>
+
+        <a class="pill" href="#" onclick="return false;" aria-label="Status">
+          <span class="dot" aria-hidden="true"></span>
+          Under construction
+        </a>
+      </header>
+
+      <section class="hero">
+        <h1>
+          A modern platform for
+          <span class="accent">professional inspections</span>
+          and compliance workflows.
+        </h1>
+
+        <p class="sub">
+          We’re building a fast and reliable web experience for creating checklists,
+          managing nonconformities, and generating structured technical reports — with a backend already live.
+        </p>
+
+        <div class="image-wrapper">
+          <img
+            src="./imagem-landingpage.png"
+            alt="Inspection Platform under construction"
+          />
+         </div>
+
+
+        <div class="cta">
+          <a class="btn primary" href="#" onclick="return false;">
+            Launching soon
+          </a>
+
+          <a class="btn ghost" href="#" onclick="return false;">
+            Contact: admin@relatoriorapido.com
+          </a>
+
+
+
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <div class="card-title">Built for speed</div>
+            <div class="card-text">
+              Simple workflows, clear UX, and instant access to inspection history.
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-title">Structured reporting</div>
+            <div class="card-text">
+              Consistent templates to generate professional, print-ready documents.
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-title">Production backend</div>
+            <div class="card-text">
+              API is online and documented. Frontend is the final piece.
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-left">
+          <span class="muted">©</span> <span id="year"></span> <span class="muted">Inspection Platform</span>
+        </div>
+
+        <div class="footer-right">
+          <span class="muted">Status:</span>
+          <span class="status">
+            <span class="dot" aria-hidden="true"></span>
+            Building
+          </span>
+        </div>
+      </footer>
+    </main>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
