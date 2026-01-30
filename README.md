@@ -1,2 +1,15 @@
-# inspection-plataform-frontend
-Frontend web for the Inspection Platform. Initial landing page and future React application for technical inspections and reports.
+# Inspection Platform – Frontend
+
+Frontend web application for the Inspection Platform.
+
+## Status
+🚧 Under construction
+
+## Stack (planned)
+- React
+- TypeScript
+- Docker
+- Traefik (deployment)
+
+## Backend
+The backend API is already live and documented via Swagger.
